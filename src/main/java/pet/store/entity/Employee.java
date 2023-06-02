@@ -19,8 +19,6 @@ public class Employee {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long employeeId;
 	
-	private Long petStoreId;
-	
 	private String EmployeeFirstName;
 	
 	private String EmployeeLastName;
